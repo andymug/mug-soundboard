@@ -17,3 +17,116 @@
             background-color: #e51c23;
          }
     
+   .orangebutton {
+            background-color: #ff9800;
+            color: white;
+            border: none;
+            border-radius: 7px;
+            display: inline-block;
+            padding: 10px;
+            font-size: 16px;
+            cursor: pointer;
+            text-align: center;
+            outline: none;
+         }
+         .orangebutton:hover {
+            background-color: #ff9800;
+         }
+         .orangebutton:active {
+            background-color: #ff9800;
+         }
+
+   .yellowbutton {
+            background-color: #ffc107;
+            color: white;
+            border: none;
+            border-radius: 7px;
+            display: inline-block;
+            padding: 10px;
+            font-size: 16px;
+            cursor: pointer;
+            text-align: center;
+            outline: none;
+         }
+         .yellowbutton:hover {
+            background-color: #ffc107;
+         }
+         .yellowbutton:active {
+            background-color: #ffc107;
+         }
+
+   .greenbutton {
+            background-color: #8bc34a;
+            color: white;
+            border: none;
+            border-radius: 7px;
+            display: inline-block;
+            padding: 10px;
+            font-size: 16px;
+            cursor: pointer;
+            text-align: center;
+            outline: none;
+         }
+         .greenbutton:hover {
+            background-color: #8bc34a;
+         }
+         .greenbutton:active {
+            background-color: #8bc34a;
+         }
+
+   .bluebutton {
+            background-color: #03a9f4;
+            color: white;
+            border: none;
+            border-radius: 7px;
+            display: inline-block;
+            padding: 10px;
+            font-size: 16px;
+            cursor: pointer;
+            text-align: center;
+            outline: none;
+         }
+         .bluebutton:hover {
+            background-color: #03a9f4;
+         }
+         .bluebutton:active {
+            background-color: #03a9f4;
+         }
+
+   .indigobutton {
+            background-color: #ffeb3b;
+            color: white;
+            border: none;
+            border-radius: 7px;
+            display: inline-block;
+            padding: 10px;
+            font-size: 16px;
+            cursor: pointer;
+            text-align: center;
+            outline: none;
+         }
+         .indigobutton:hover {
+            background-color: #ffeb3b;
+         }
+         .indigobutton:active {
+            background-color: #ffeb3b;
+         }
+
+   .violetbutton {
+            background-color: #9c27b0;
+            color: white;
+            border: none;
+            border-radius: 7px;
+            display: inline-block;
+            padding: 10px;
+            font-size: 16px;
+            cursor: pointer;
+            text-align: center;
+            outline: none;
+         }
+         .violetbutton:hover {
+            background-color: #9c27b0;
+         }
+         .violetbutton:active {
+            background-color: #9c27b0;
+         }
