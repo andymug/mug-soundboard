@@ -130,3 +130,23 @@
          .violetbutton:active {
             background-color: #9c27b0;
          }
+
+  .blackbutton {
+            background-color: #212121;
+            color: white;
+            border: none;
+            border-radius: 7px;
+            display: inline-block;
+            padding: 10px;
+            font-size: 16px;
+            cursor: pointer;
+            text-align: center;
+            outline: none;
+         }
+         .blackbutton:hover {
+            background-color: #212121;
+         }
+         .blackbutton:active {
+            background-color: #212121;
+         }
+
