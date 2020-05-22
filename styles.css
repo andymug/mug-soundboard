@@ -144,9 +144,9 @@
             outline: none;
          }
          .blackbutton:hover {
-            background-color: #212121;
+            background-color: #373737;
          }
          .blackbutton:active {
-            background-color: #212121;
+            background-color: #585858;
          }
 
