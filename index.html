@@ -69,6 +69,14 @@
             audio.src = '/mug-soundboard/audio/defence/2020/defence_thats_nature.mp3'    
             audio.play();
         }
+        if(num == 14) {
+            audio.src = '/mug-soundboard/audio/defence/2020/defence_toothless_subway_order.mp3'    
+            audio.play();
+        }
+        if(num == 15) {
+            audio.src = '/mug-soundboard/audio/defence/2020/defence_you_know_what_i_mean.mp3'    
+            audio.play();
+        }
     }
 
     function loadHumangContent(num){
@@ -79,6 +87,31 @@
         }
         if(num == 2) {
             audio.src = '/mug-soundboard/audio/humang/2019/humangKnowsThings.mp3'    
+            audio.play();
+        }
+        // 2020
+        if(num == 3) {
+            audio.src = '/mug-soundboard/audio/humang/2019/humangKnowsThings.mp3'    
+            audio.play();
+        }
+        if(num == 4) {
+            audio.src = '/mug-soundboard/audio/humang/2019/humang_dont_understand_reference.mp3'    
+            audio.play();
+        }
+        if(num == 5) {
+            audio.src = '/mug-soundboard/audio/humang/2019/humang_mmm.mp3'    
+            audio.play();
+        }
+        if(num == 6) {
+            audio.src = '/mug-soundboard/audio/humang/2019/humang_really_dont_think_it_is.mp3'    
+            audio.play();
+        }
+        if(num == 7) {
+            audio.src = '/mug-soundboard/audio/humang/2019/humang_think_of.mp3'    
+            audio.play();
+        }
+        if(num == 8) {
+            audio.src = '/mug-soundboard/audio/humang/2019/humang_tried.mp3'    
             audio.play();
         }
     }
@@ -137,6 +170,7 @@
             audio.src = '/mug-soundboard/audio/jester/2019/weaselCrow.mp3'    
             audio.play();
         }
+   
 
         // 2020
         if(num == 14) {
@@ -183,6 +217,10 @@
             audio.src = '/mug-soundboard/audio/jester/2020/jesterTortleJoke.mp3'    
             audio.play();
         }
+        if(num == 25) {
+            audio.src = '/mug-soundboard/audio/jester/2020/jester_tired_hiphop.mp3'    
+            audio.play();
+        }
     }
     
     function loadLoraContent(num){
@@ -199,8 +237,20 @@
             audio.src = '/mug-soundboard/audio/mal/2020/goodForYou.mp3'    
             audio.play();
         }
+        if(num == 2) {
+            audio.src = '/mug-soundboard/audio/mal/2020/mal_good_as_it_gets.mp3'    
+            audio.play();
+        }
     }
-    
+ 
+     function loadPandaContent(num){
+        // 2020
+        if(num == 1) {
+            audio.src = '/mug-soundboard/audio/panda/2020/panda_bam.mp3'    
+            audio.play();
+        }
+    }
+ 
     function loadRelicContent(num){
         // 2019
         if(num == 1) {
@@ -290,6 +340,34 @@
             audio.src = '/mug-soundboard/audio/treelo/2020/treeloCat.mp3'    
             audio.play();
         }
+        if(num == 8) {
+            audio.src = '/mug-soundboard/audio/treelo/2020/treelo_blue_world.mp3'    
+            audio.play();
+        }
+        if(num == 9) {
+            audio.src = '/mug-soundboard/audio/treelo/2020/treelo_hands_back_in_pants.mp3'    
+            audio.play();
+        }
+        if(num == 10) {
+            audio.src = '/mug-soundboard/audio/treelo/2020/treelo_miracle.mp3'    
+            audio.play();
+        }
+        if(num == 11) {
+            audio.src = '/mug-soundboard/audio/treelo/2020/treelo_ok_dr_tooth.mp3'    
+            audio.play();
+        }
+        if(num == 12) {
+            audio.src = '/mug-soundboard/audio/treelo/2020/treelo_pizza_shapes.mp3'    
+            audio.play();
+        }
+        if(num == 13) {
+            audio.src = '/mug-soundboard/audio/treelo/2020/treelo_raging_fire.mp3'    
+            audio.play();
+        }
+        if(num == 14) {
+            audio.src = '/mug-soundboard/audio/treelo/2020/treelo_steady_on.mp3'    
+            audio.play();
+        }
     }
     
 </script>
@@ -319,15 +397,21 @@
     <button onclick="loadDefenceContent(11)" class="blackbutton">If they died...</button> 
     <button onclick="loadDefenceContent(12)" class="blackbutton">Talking Dog</button> 
     <button onclick="loadDefenceContent(13)" class="blackbutton">That's nature</button> 
-    
-    
+    <button onclick="loadDefenceContent(14)" class="blackbutton">Toothless Subway</button> 
+    <button onclick="loadDefenceContent(15)" class="blackbutton">You know what I mean?</button>    
+ 
     <hr>
     
     <h2>Humang</h2>
     <h3> 2019</h3>
     <button onclick="loadHumangContent(1)" class="blackbutton">Hmmmm?</button> 
     <button onclick="loadHumangContent(2)" class="blackbutton">I don't know what's going on.</button> 
-    
+    <button onclick="loadHumangContent(3)" class="blackbutton">Don't understand the reference</button>   
+    <button onclick="loadHumangContent(4)" class="blackbutton">Mmmm.</button>   
+    <button onclick="loadHumangContent(5)" class="blackbutton">Really don't think it is...</button>   
+    <button onclick="loadHumangContent(6)" class="blackbutton">Only thing I could think of</button>   
+    <button onclick="loadHumangContent(7)" class="blackbutton">I tried so hard!</button>   
+ 
     <hr>
     
     <h2>Jester</h2>
@@ -345,7 +429,7 @@
     <button onclick="loadJesterContent(11)" class="blackbutton">Trash</button> 
     <button onclick="loadJesterContent(12)" class="blackbutton">What do you want from me?</button> 
     <button onclick="loadJesterContent(13)" class="blackbutton">WEASEL CROW!</button> 
-    
+ 
     <h3> 2020</h3>
     <button onclick="loadJesterContent(14)" class="blackbutton">Fantasy Lore</button> 
     <button onclick="loadJesterContent(15)" class="blackbutton">It's GIZZLY!</button> 
@@ -358,7 +442,8 @@
     <button onclick="loadJesterContent(22)" class="blackbutton">Hot</button> 
     <button onclick="loadJesterContent(23)" class="blackbutton">Okay</button> 
     <button onclick="loadJesterContent(24)" class="blackbutton">Turtle Joke</button> 
-    
+    <button onclick="loadJesterContent(25)" class="blackbutton">Australian hip hop</button>       
+ 
     <hr>
         
     <h2>Lora</h2>
@@ -370,6 +455,13 @@
     <h2>Mal</h2>
     <h3> 2020</h3>
     <button onclick="loadMalContent(1)" class="blackbutton">Good for you</button> 
+    <button onclick="loadMalContent(2)" class="blackbutton">Good as it gets.</button> 
+ 
+    <hr>
+ 
+    <h2>Panda</h2>
+    <h3> 2020</h3>
+    <button onclick="loadPandaContent(1)" class="blackbutton">Bam!</button> 
     
     <hr>
         
@@ -405,5 +497,13 @@
     <button onclick="loadTreeloContent(5)" class="blackbutton">Cricket</button> 
     <button onclick="loadTreeloContent(6)" class="blackbutton">Scomo</button> 
     <button onclick="loadTreeloContent(7)" class="blackbutton">Cat</button> 
+ 
+     <button onclick="loadTreeloContent(8)" class="blackbutton">Blue world</button> 
+     <button onclick="loadTreeloContent(9)" class="blackbutton">Hands in your pants</button> 
+     <button onclick="loadTreeloContent(10)" class="blackbutton">Miracle</button> 
+     <button onclick="loadTreeloContent(11)" class="blackbutton">Ok, Dr Toothless</button> 
+     <button onclick="loadTreeloContent(12)" class="blackbutton">Pizza Shapes</button> 
+     <button onclick="loadTreeloContent(13)" class="blackbutton">Raging Fire</button> 
+     <button onclick="loadTreeloContent(14)" class="blackbutton">Steady on</button> 
 </body>
 </html> 
