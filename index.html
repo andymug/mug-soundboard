@@ -13,6 +13,14 @@
     
 <script>
     var audio = new Audio();
+
+    function loadChonkContent(num){
+        // 2020
+        if(num == 1) {
+        audio.src = '/mug-soundboard/audio/chonk/chonk_hello.mp3'
+        audio.play();
+    }
+
     function loadDefenceContent(num){
         // 2019
         if(num == 1) {
@@ -77,6 +85,15 @@
             audio.src = '/mug-soundboard/audio/defence/2020/defence_you_know_what_i_mean.mp3'    
             audio.play();
         }
+        if(num == 16) {
+            audio.src = '/mug-soundboard/audio/defence/2020/defence_10.mp3'
+            audio.play();
+        }
+        if(num == 17) {
+            audio.src = '/mug-soundboard/audio/defence/2020/defence_hiback.mp3'
+            audio.play();
+        }
+
     }
 
     function loadHumangContent(num){
@@ -217,7 +234,49 @@
             audio.src = '/mug-soundboard/audio/jester/2020/jester_tired_hiphop.mp3'    
             audio.play();
         }
+
+        // August 2020
+        if(num == 26) {
+            audio.src = '/mug-soundboard/audio/jester/2020/jester_aus_grunge.mp3'
+            audio.play();
+        }
+
+        if(num == 27) {
+            audio.src = '/mug-soundboard/audio/jester/2020/jester_back.mp3'
+            audio.play();
+        }
+
+        if(num == 28) {
+            audio.src = '/mug-soundboard/audio/jester/2020/jester_div1.mp3'
+            audio.play();
+        }
+
+        if(num == 29) {
+            audio.src = '/mug-soundboard/audio/jester/2020/jester_div1pyro.mp3'
+            audio.play();
+        }
+
+        if(num == 30) {
+            audio.src = '/mug-soundboard/audio/jester/2020/jester_emo_connect.mp3'
+            audio.play();
+        }
+
+        if(num == 31) {
+            audio.src = '/mug-soundboard/audio/jester/2020/jester_love_you.mp3'
+            audio.play();
+        }
+
+        if(num == 32) {
+            audio.src = '/mug-soundboard/audio/jester/2020/jester_report.mp3'
+            audio.play();
+        }
+
+        if(num == 33) {
+            audio.src = '/mug-soundboard/audio/jester/2020/jester_unhappy.mp3'
+            audio.play();
+        }
     }
+
     
     function loadLoraContent(num){
         // 2020
@@ -225,8 +284,22 @@
             audio.src = '/mug-soundboard/audio/lora/2020/scrag.mp3'    
             audio.play();
         }
+
+        if(num == 2) {
+            audio.src = '/mug-soundboard/audio/lora/2020/lora_gdq_stop.mp3'
+            audio.play();
+        }
     }
        
+
+    function loadOtherContent(num){
+        // 2020
+        if(num == 1) {
+            audio.src = '/mug-soundboard/audio/other/2020/melburnians.mp3'
+            audio.play();
+        }
+    }
+
     function loadMalContent(num){
         // 2020
         if(num == 1) {
@@ -301,6 +374,16 @@
             audio.src = '/mug-soundboard/audio/toothless/2020/toothless_wow_youlovedick.mp3'    
             audio.play();
         }
+        if(num == 4) {
+            audio.src = '/mug-soundboard/audio/toothless/2020/toothless_above.mp3'
+            audio.play();
+        }
+
+        if(num == 5) {
+            audio.src = '/mug-soundboard/audio/toothless/2020/toothless_jeststop.mp3'
+            audio.play();
+        }
+
     }
     
     function loadTreeloContent(num){
@@ -364,6 +447,16 @@
             audio.src = '/mug-soundboard/audio/treelo/2020/treelo_steady_on.mp3'    
             audio.play();
         }
+
+        if(num == 15) {
+            audio.src = '/mug-soundboard/audio/treelo/2020/treelo_5mins.mp3'
+            audio.play();
+        }
+
+        if(num == 16) {
+            audio.src = '/mug-soundboard/audio/treelo/2020/treelo_jester.mp3'
+            audio.play();
+        }
     }
     
 </script>
@@ -374,6 +467,14 @@
 
 <h1>The Mug Soundboard</h1>
     
+     <hr>
+
+    <h2>Chonk</h2>
+    <h3> 2020</h3>
+    <button onclick="loadChonkContent(1)" class="blackbutton">Hello!</button>
+
+
+
     <hr>
     
     <h2>Defence</h2>
@@ -394,7 +495,10 @@
     <button onclick="loadDefenceContent(12)" class="blackbutton">Talking Dog</button> 
     <button onclick="loadDefenceContent(13)" class="blackbutton">That's nature</button> 
     <button onclick="loadDefenceContent(14)" class="blackbutton">Toothless Subway</button> 
-    <button onclick="loadDefenceContent(15)" class="blackbutton">You know what I mean?</button>    
+    <button onclick="loadDefenceContent(15)" class="blackbutton">You know what I mean?</button>
+
+    <button onclick="loadDefenceContent(16)" class="blackbutton">10 out of 10</button>
+    <button onclick="loadDefenceContent(17)" class="blackbutton">Hi, Back.</button>
  
     <hr>
     
@@ -440,12 +544,21 @@
     <button onclick="loadJesterContent(24)" class="blackbutton">Turtle Joke</button> 
     <button onclick="loadJesterContent(25)" class="blackbutton">Australian hip hop</button>       
  
+    <button onclick="loadJesterContent(26)" class="blackbutton">Australian grunge</button>
+    <button onclick="loadJesterContent(27)" class="blackbutton">I'm back</button>
+    <button onclick="loadJesterContent(28)" class="blackbutton">Div 1</button>
+    <button onclick="loadJesterContent(29)" class="blackbutton">Div 1 Pyro</button>
+    <button onclick="loadJesterContent(30)" class="blackbutton">Emotional Connection</button>
+    <button onclick="loadJesterContent(31)" class="blackbutton">I love you!</button>
+    <button onclick="loadJesterContent(32)" class="blackbutton">Report me</button>
+    <button onclick="loadJesterContent(33)" class="blackbutton">Unhappy</button>
+
     <hr>
         
     <h2>Lora</h2>
     <h3> 2020</h3>
     <button onclick="loadLoraContent(1)" class="blackbutton">SCRAAAG!</button> 
-        
+    <button onclick="loadLoraContent(1)" class="blackbutton">GDQ Stop</button>
     <hr>
     
     <h2>Mal</h2>
@@ -460,7 +573,13 @@
     <button onclick="loadPandaContent(1)" class="blackbutton">Bam!</button> 
     
     <hr>
-        
+
+    <h2>Other</h2>
+    <h3> 2020</h3>
+    <button onclick="loadOtherContent(1)" class="blackbutton">Melburnians</button>
+
+    <hr>
+
     <h2>Relic</h2>
     <h3> 2019</h3>
     <button onclick="loadRelicContent(1)" class="blackbutton">I hate you!</button> 
@@ -480,7 +599,8 @@
     <button onclick="loadToothlessContent(1)" class="blackbutton">Bulbasaur</button> 
     <button onclick="loadToothlessContent(2)" class="blackbutton">Fuck yourself</button> 
     <button onclick="loadToothlessContent(3)" class="blackbutton">Wow you love dick</button> 
-    
+    <button onclick="loadToothlessContent(4)" class="blackbutton">Above it all</button>
+    <button onclick="loadToothlessContent(5)" class="blackbutton">Shh jester.</button>
     <hr>    
     
     <h2>Treelo</h2>
@@ -501,5 +621,8 @@
      <button onclick="loadTreeloContent(12)" class="blackbutton">Pizza Shapes</button> 
      <button onclick="loadTreeloContent(13)" class="blackbutton">Raging Fire</button> 
      <button onclick="loadTreeloContent(14)" class="blackbutton">Steady on</button> 
+
+     <button onclick="loadTreeloContent(15)" class="blackbutton">5 mins</button>
+     <button onclick="loadTreeloContent(16)" class="blackbutton">Treelo doing a Jester</button>
 </body>
 </html> 
